@@ -1,0 +1,17 @@
+var desconto =  0.25;
+var Sapato = 100.50;
+var Bolsa = 150.25;
+var Calça = 50.10;
+var diaD;
+
+console.log("O preço dos produtos no dia 27 é:" +Sapato,+Bolsa,+Calça)
+
+diaD = true;
+
+if(diaD == true)
+  {
+    Sapato = Sapato - Sapato * desconto;
+    Bolsa = Bolsa - Bolsa * desconto;
+    Calça = Calça - Calça * desconto;
+    console.log("O preço dos produtos no dia 26 é: " + Sapato,+Bolsa,+Calça)
+  }
